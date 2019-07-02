@@ -1,7 +1,7 @@
 {
   "setup": "chmod +x ./check_logic/setup.sh; ./check_logic/setup.sh",
   "assignment": {
-    "title": "User Input & the DOM",
+    "title": "Data manipulation",
     "description": "Send us the link with the repository with your work for today to see whether you reached all learning goals! We'll be checking your detail-page for the following things:",
     "score": "",
     "learningGoals": [
@@ -41,7 +41,7 @@
         "laws": [
           {
             "description": "Items from the original data array are being rendered",
-            "test": "node check_logic/codeceptjs/renderData.test.js",
+            "test": "node check_logic/codeceptjs/renderFromArray.test",
             "status": "Broken",
             "shellOutput": ""
           }
