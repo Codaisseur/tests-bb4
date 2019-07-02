@@ -41,7 +41,7 @@
         "laws": [
           {
             "description": "Items from the original data array are being rendered",
-            "test": "node check_logic/codecept/renderData.test.js",
+            "test": "node check_logic/codeceptjs/renderData.test.js",
             "status": "Broken",
             "shellOutput": ""
           }
