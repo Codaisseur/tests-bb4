@@ -1,0 +1,52 @@
+{
+  "setup": "chmod +x ./check_logic/setup.sh; ./check_logic/setup.sh",
+  "assignment": {
+    "title": "User Input & the DOM",
+    "description": "Send us the link with the repository with your work for today to see whether you reached all learning goals! We'll be checking your detail-page for the following things:",
+    "score": "",
+    "learningGoals": [
+      {
+        "goal": "Implement basic principles of clean coding in your app",
+        "score": 0,
+        "laws": [
+          {
+            "description": "HTML passes all validation rules",
+            "test": "node check_logic/tests/ccHTML.js",
+            "status": "Broken",
+            "shellOutput": ""
+          },
+          {
+            "description": "CSS passes all validation rules",
+            "test": "node check_logic/tests/ccCSS.js",
+            "status": "Broken",
+            "shellOutput": ""
+          },
+          {
+            "description": "Javascript is properly indented",
+            "test": "node check_logic/tests/checkIndentation.js",
+            "status": "Broken",
+            "shellOutput": ""
+          },
+          {
+            "description": "`var` keyword is not used",
+            "test": "node check_logic/tests/checkUseOfVar.js",
+            "status": "Broken",
+            "shellOutput": ""
+          }
+        ]
+      },
+      {
+        "goal": "Render data from an array",
+        "score": 0,
+        "laws": [
+          {
+            "description": "Items from the original data array are being rendered",
+            "test": "node check_logic/codecept/renderData.test.js",
+            "status": "Broken",
+            "shellOutput": ""
+          }
+        ]
+      }
+    ]
+  }
+}
